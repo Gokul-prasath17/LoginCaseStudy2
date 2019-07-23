@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "log in",
+        "description": "",
+        "id": "login-page;log-in;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25071155800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser",
+            "match": {
+              "location": "login.open_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 314780100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter valid user name \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 22
+                }
+              ],
+              "location": "login.enter_valid_user_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318845600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter valid password \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "login.enter_valid_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9416437800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on sig in button",
+            "match": {
+              "location": "login.click_on_sig_in_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login page",
+    "description": "This doc describe log in page in Testme App",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
